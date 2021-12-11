@@ -31,8 +31,7 @@ Day 3
 	• Copy Constructor (Stack and Complex classes)
 	• Friend Function (violates OOP Rules)
 > Lab
-	• Static Stack
-	• Dynamic Stack
+	• Apply and Trace Constructor, Copy Constructor and Destructor (Dynamic Stack Example)
 	• Friend Function
 
 Day 4
