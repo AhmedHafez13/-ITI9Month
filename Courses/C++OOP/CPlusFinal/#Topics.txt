@@ -25,7 +25,7 @@ Day 2 (Snips)
 	• Stack (static and dynamic)
 	• Complex class with (copy) constructor
 
-Day 3 (Need to create snips)
+Day 3
 -----------
 > Lec
 	• Copy Constructor (Stack and Complex classes)
@@ -34,20 +34,6 @@ Day 3 (Need to create snips)
 	• Static Stack
 	• Dynamic Stack
 	• Friend Function
-Snips:
-		=> Constructors
-		=> Default Constructor
-		=> Copy Constructor
-		=> Destructor (~)
-		----- * ----- * -----
-		Parameterless Constructor (Default Constructor)
-
-		Constructor
-
-		Copy Constructor
-		called when -> passing object by value 	  -> fun(obj)
-					-> Create object from another -> Obj obj1 = obj2
-					-> Create object from another -> Obj obj3(obj2)
 
 Day 4
 -----------
