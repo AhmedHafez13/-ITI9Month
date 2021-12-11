@@ -1,0 +1,10 @@
+
+Parameterless Constructor (Default Constructor)
+
+Constructor
+
+Copy Constructor
+called when -> passing object by value 	  -> fun(obj)
+			-> Create object from another -> Obj obj1 = obj2
+			-> Create object from another -> Obj obj3(obj2)
+

@@ -1,0 +1,41 @@
+
+1.
+---
+Copy (libbgi.a) => C:\Program Files (x86)\CodeBlocks\MinGW\lib
+
+2.
+---
+-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
+
+3.
+---
+Copy (graphics.h) => Project folder
+
+4.
+--- 
+#include "graphics.h"
+
+5.
+--- 
+int gdriver = DETECT, gmode, errorcode;
+initgraph(&gdriver, &gmode, "");
+
+Rect r(400, 300, 300, 100);
+r.draw();
+r.print();
+
+Circle c(150, 200, 100);
+c.draw();
+
+Sleep(5000);
+
+closegraph();
+
+
+void draw() {
+	rectangle(ul.getX(), ul.getY(), lr.getX(), lr.getY());
+}
+	
+void draw() {
+	circle(center.getX(), center.getY(), radius);
+}

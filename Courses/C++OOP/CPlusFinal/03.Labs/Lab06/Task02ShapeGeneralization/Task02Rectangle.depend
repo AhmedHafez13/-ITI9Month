@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1638619691 source:e:\iti\c++oop\lectures\lecture04\no01rectangle\main.cpp
+	<iostream>
+	"graphics.h"
+
+1638618757 e:\iti\c++oop\lectures\lecture04\no01rectangle\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1638711465 source:e:\iti\c++oop\labs\lab05\no02rectangle\main.cpp
+	<iostream>
+	"graphics.h"
+
+1513417816 e:\iti\c++oop\labs\lab05\no02rectangle\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1638794833 source:e:\iti\c++oop\labs\lab06\task02rectangle\main.cpp
+	<iostream>
+	"graphics.h"
+
+1513417816 e:\iti\c++oop\labs\lab06\task02rectangle\graphics.h
+	<windows.h>
+	<limits.h>
+	<sstream>
+
