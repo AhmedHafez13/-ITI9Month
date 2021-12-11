@@ -100,8 +100,3 @@ Day 7
 	• String Class
 	• Draw an Abajour
 	
-
-=================================
-
-Copy Constructor
-
