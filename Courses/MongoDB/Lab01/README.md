@@ -1,5 +1,9 @@
+# MongoDB Lab 1 - 2022.03.11
+
+## Create new data folder
+
 ```bash
-$ cd {data_path}
+$ cd {path/to/data}
 
 $ mongod --dbpath .
 
@@ -168,8 +172,6 @@ db.student.find()
 
 ## 4.3 Student With `FirstName` = `Ahmed` or `LastName` = `Ahmed`
 
-###
-
 ```bash
 > db.student.find({$or: [{"FirstName": "Ahmed"}, {"LastName": "Ahmed"}]})
 { "_id" : ObjectId("622b6132c94c4c4f0dead470"), "FirstName" : "Ahmed", "LastName" : "Gamal", "Age" : 20, "Faculty" : { "Name" : "Engineering", "Address" : "Mans" }, "Grads" : [ { "CourseName" : "Networking", "Grade" : "B", "Pass" : true }, { "CourseName" : "Operating Systems", "Grade" : "A", "Pass" : true }, { "CourseName" : "MongoDB", "Grade" : "F", "Pass" : false } ], "isFired" : true }
@@ -299,7 +301,7 @@ WriteResult({ "nRemoved" : 2 })
 
 ## 7 Delete the database
 
-```
+```bash
 > db.student.drop()
 > true
 ```
@@ -389,11 +391,15 @@ WriteResult({ "nInserted" : 1 })
 > db.course.insertMany([
     {
         "name": "Networking",
-        "mark": "100"
+        "mark": 100
     },
     {
         "name": "MongoDB",
-        "mark": "120"
+        "mark": 120
+    },
+    {
+        "name": "NodeJS",
+        "mark": 80
     }
     ])
 "acknowledged" : true,
