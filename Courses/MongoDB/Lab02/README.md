@@ -179,9 +179,9 @@ Get students with first name and faculity
 ### 5.1 Select specific student with his name, and then display his faculty
 
 ```bash
-> var student = db.student.findOne( { FirstName : "Ahmed" } );
-> var facultyRef = student.Faculty;
-> db[facultyRef.$ref].find( { _id : facultyRef.$id } ).pretty();
+> var student = db.student.findOne( { FirstName : "Ahmed" } )
+> var facultyRef = student.Faculty
+> db[facultyRef.$ref].find( { _id : facultyRef.$id } ).pretty()
 {
     "_id" : ObjectId("622b794e21c0562fe9e8d5e6"),
     "name" : "Engineering",
