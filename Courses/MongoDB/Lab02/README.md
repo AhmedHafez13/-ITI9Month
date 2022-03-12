@@ -3,8 +3,6 @@
 ```bash
 $ cd {path/to/data}
 
-$ mongod --dbpath .
-
 $ mongo
 ```
 
