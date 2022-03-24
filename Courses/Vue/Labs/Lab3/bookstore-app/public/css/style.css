@@ -1,0 +1,43 @@
+.btn.rounded-circle {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+}
+
+.app-navbar {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand {
+  font-size: 1.3rem !important;
+}
+
+.nav-item a {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+div.wishlist-note {
+  text-align: center;
+  padding: 0.5rem;
+  user-select: none;
+}
+
+div.wishlist-note > span {
+  padding: 0.35em 0.65em;
+  font-size: 0.6em;
+  font-weight: 700;
+  line-height: 1;
+  color: black;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  border-radius: 50rem;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.779);
+  border: 2px solid gray;
+  cursor: pointer;
+}
