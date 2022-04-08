@@ -8,7 +8,7 @@
 sudo docker container run --name test-container -it ubuntu
 ```
 
-![](./screenshots/screenshot_1.png)
+![](screenshots/screenshot_1.png)
 
 ### 2. Check the container status
 
@@ -16,7 +16,7 @@ sudo docker container run --name test-container -it ubuntu
 sudo docker container ls -a
 ```
 
-![](./screenshots/screenshot_2.png)
+![](screenshots/screenshot_2.png)
 
 ### 3. Start the stopped container
 
@@ -24,7 +24,7 @@ sudo docker container ls -a
 sudo docker container start test-container
 ```
 
-![](./screenshots/screenshot_3.png)
+![](screenshots/screenshot_3.png)
 
 ### 4. Remove the container
 
@@ -34,7 +34,7 @@ sudo docker container run --name new-container -it ubuntu
 sudo docker container rm new-container
 ```
 
-![](./screenshots/screenshot_4.png)
+![](screenshots/screenshot_4.png)
 
 ### 5. Remove the image
 
@@ -45,7 +45,7 @@ sudo docker image rm ubuntu:18.04
 sudo docker image -ls
 ```
 
-![](./screenshots/screenshot_5.png)
+![](screenshots/screenshot_5.png)
 
 ---
 
@@ -61,7 +61,7 @@ sudo docker image -ls
 sudo docker container run --name new-container -it ubuntu
 ```
 
-![](./screenshots/screenshot_6.png)
+![](screenshots/screenshot_6.png)
 
 ### 4. Stop the container and remove it
 
@@ -69,7 +69,7 @@ sudo docker container run --name new-container -it ubuntu
 sudo docker container rm new-container
 ```
 
-![](./screenshots/screenshot_7.png)
+![](screenshots/screenshot_7.png)
 
 ### 5. Remove all stopped containers
 
@@ -78,7 +78,7 @@ sudo docker container prune
 sudo docker container ls -a
 ```
 
-## ![](./screenshots/screenshot_8.png)
+## ![](screenshots/screenshot_8.png)
 
 ---
 
@@ -94,7 +94,7 @@ sudo docker stop test-apache
 sudo docker container rm test-apache
 ```
 
-![](./screenshots/screenshot_9.png)
+![](screenshots/screenshot_9.png)
 
 ### 3. Run a new container with the following:
 
@@ -105,8 +105,8 @@ sudo docker container rm test-apache
 sudo docker run -d -p 127.0.0.1:9898:80 --name httpd-container -it httpd
 ```
 
-![](./screenshots/screenshot_11.png)
-![](./screenshots/screenshot_12.png)
+![](screenshots/screenshot_11.png)
+![](screenshots/screenshot_12.png)
 
 ---
 
@@ -124,8 +124,8 @@ cd /usr/local/apache2
 git clone https://github.com/ShaifArfan one-page-website-html-css-project.git htdocs
 ```
 
-![](./screenshots/screenshot_13.png)
-![](./screenshots/screenshot_14.png)
+![](screenshots/screenshot_13.png)
+![](screenshots/screenshot_14.png)
 
 ### 3. Commit the container with image name IMAGE_NAME
 
@@ -134,8 +134,8 @@ sudo docker commit 538a5548392a ahmedhafez13 httpd-container
 sudo docker images
 ```
 
-![](./screenshots/screenshot_15.png)
-![](./screenshots/screenshot_16.png)
+![](screenshots/screenshot_15.png)
+![](screenshots/screenshot_16.png)
 
 ---
 
@@ -149,5 +149,5 @@ sudo docker container run --name mysql-container -p 127.0.0.1:3306:3306 -e MYSQL
 sudo docker container ls -a
 ```
 
-![](./screenshots/screenshot_17.png)
-![](./screenshots/screenshot_18.png)
+![](screenshots/screenshot_17.png)
+![](screenshots/screenshot_18.png)
