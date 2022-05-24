@@ -1,0 +1,8 @@
+<odoo>
+    <data>
+        <report id="hms_patient_report"
+                name="hms.hms_patient_template"
+                string="Patient Details"
+                model="hms.patient"/>
+    </data>
+</odoo>
